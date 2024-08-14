@@ -1,0 +1,72 @@
+BODY {
+
+background-color: rgb(63, 43, 63);
+color: rgb(27, 23, 27);
+
+margin: 0%;
+font-family: "Bona Nova SC", serif;
+margin-bottom: 100px;
+
+}
+
+header{
+    border-bottom: solid 4px white; 
+    padding: 20px;
+    font-size: 32px;
+    color:rgb(62, 173, 173);
+}
+
+.chamada {
+    background: rgb(52, 112, 112);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 28px;
+    
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.chamada-texto
+ {margin-right: 10px;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+p {
+    font-size: 15px;
+}
+
+    
+.categoria-videos {
+    display: flex;
+      overflow-x: auto;
+      gap: 10px;
+      
+   }
+
+.categoria {
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 50px;
+
+
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 150px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 2px solid rgb(52, 112, 112);
+}
+
+.categoria h2 {
+    color:rgb(62, 173, 173);
+    font-family: monospace;
+
+}
